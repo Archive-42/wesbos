@@ -1,0 +1,609 @@
+{
+  "componentChunkName": "component---src-pages-javascript-js",
+  "path": "/javascript",
+  "result": {
+    "data": {
+      "allMdx": {
+        "nodes": [
+          {
+            "frontmatter": {
+              "tocTitle": "01 - Welcome",
+              "slug": "01-the-basics/welcome",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "02 - Browser, Editor and Terminal Setup",
+              "slug": "01-the-basics/browser-editor-and-terminal-setup",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "03 - Running and Loading JavaScript",
+              "slug": "01-the-basics/running-and-loading-js",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "04 - Variables and Statements",
+              "slug": "01-the-basics/variables-and-statements",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "05 - Code Quality Tooling with Prettier and ESLint",
+              "slug": "01-the-basics/code-quality-tooling-with-prettier-and-eslint",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "06 - Types - Introduction",
+              "slug": "01-the-basics/types-introduction",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "07 - Types - Strings",
+              "slug": "01-the-basics/types-strings",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "08 - Types - Numbers",
+              "slug": "01-the-basics/types-numbers",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "09 - Types - Objects",
+              "slug": "01-the-basics/types-objects",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "10 - Types - Null and Undefined",
+              "slug": "01-the-basics/types-null-and-undefined",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "11 - Types - Booleans and Equality",
+              "slug": "01-the-basics/types-booleans-and-equality",
+              "section": "1 - The Basics"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "12 - Functions - Built-in",
+              "slug": "02-functions/functions-built-in",
+              "section": "2 - Functions"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "13 - Functions - Custom",
+              "slug": "02-functions/functions-custom",
+              "section": "2 - Functions"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "14 - Functions - Parameters and Arguments",
+              "slug": "02-functions/functions-parameters-and-arguments",
+              "section": "2 - Functions"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "15 - Different Ways to Declare Functions",
+              "slug": "02-functions/different-ways-to-declare-functions",
+              "section": "2 - Functions"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "16 - Debugging Tools",
+              "slug": "02-functions/debugging-tools",
+              "section": "2 - Functions"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "17 - Scope",
+              "slug": "03-the-tricky-bits/scope",
+              "section": "3 - The Tricky Bits"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "18 - Hoisting",
+              "slug": "03-the-tricky-bits/hoisting",
+              "section": "3 - The Tricky Bits"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "19 - Closures",
+              "slug": "03-the-tricky-bits/closures",
+              "section": "3 - The Tricky Bits"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "20 - Introduction to the DOM",
+              "slug": "04-the-dom/introduction-to-the-dom",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "21 - Selecting Elements",
+              "slug": "04-the-dom/selecting-elements",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "22 - Element Properties and Methods",
+              "slug": "04-the-dom/element-properties-and-methods",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "23 - Working with Classes",
+              "slug": "04-the-dom/working-with-classes",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "24 - Built-in and Custom Data Attributes",
+              "slug": "04-the-dom/built-in-and-custom-data-attributes",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "25 - Creating HTML",
+              "slug": "04-the-dom/creating-html",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "26 - HTML from Strings and XSS",
+              "slug": "04-the-dom/html-from-strings-and-xss",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "27 - Traversing and Removing Nodes",
+              "slug": "04-the-dom/traversing-and-removing-nodes",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "28 - Cardio",
+              "slug": "04-the-dom/cardio",
+              "section": "4 - The DOM"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "29 - Event Listener",
+              "slug": "05-events/event-listener",
+              "section": "5 - Events"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "30 - Targets, Bubbling, Propagation and Capture",
+              "slug": "05-events/targets-bubbling-propagation-and-capture",
+              "section": "5 - Events"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "31 - Prevent Default and Form Events",
+              "slug": "05-events/prevent-default-and-form-events",
+              "section": "5 - Events"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "32 - Accessibility Gotchas and Keyboard Codes",
+              "slug": "05-events/accessibility-gotchas-and-keyboard-codes",
+              "section": "5 - Events"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "33 - Etch-a-Sketch",
+              "slug": "06-serious-practice-exercises/etch-a-sketch",
+              "section": "6 - Serious Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "34 - Click Outside Modal",
+              "slug": "06-serious-practice-exercises/click-outside-modal",
+              "section": "6 - Serious Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "35 - Scroll Events and Intersection Observer",
+              "slug": "06-serious-practice-exercises/scroll-events-and-intersection-observer",
+              "section": "6 - Serious Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "36 - Tabs",
+              "slug": "06-serious-practice-exercises/tabs",
+              "section": "6 - Serious Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "37 - BEDMAS",
+              "slug": "07-logic-and-flow-control/bedmas",
+              "section": "7 - Logic and Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "38 - If Statements, Function Returns, Truthy and Falsy",
+              "slug": "07-logic-and-flow-control/if-statements-function-returns-truthy-falsy",
+              "section": "7 - Logic and Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "39 - Coercion, Ternaries and Conditional Abuse",
+              "slug": "07-logic-and-flow-control/coercion-ternaries-and-conditional-abuse",
+              "section": "7 - Logic and Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "40 - Case Switch and Animating a Turtle with CSS Variables",
+              "slug": "07-logic-and-flow-control/case-switch-and-animating-a-turtle-with-css-variables",
+              "section": "7 - Logic and Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "41 - Intervals and Timers",
+              "slug": "07-logic-and-flow-control/intervals-and-timers",
+              "section": "7 - Logic and Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "42 - Objects",
+              "slug": "08-data-types/objects",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "43 - Object References vs Values",
+              "slug": "08-data-types/object-references-vs-values",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "44 - Maps",
+              "slug": "08-data-types/maps",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "45 - Arrays",
+              "slug": "08-data-types/arrays",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "46 - Array Cardio - Static Methods",
+              "slug": "08-data-types/46-array-cardio-static-methods",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "47 - Array Cardio - Instance Methods",
+              "slug": "08-data-types/47-array-cardio-instance-methods",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "48 - Array Cardio - Callback Methods and Function Generation",
+              "slug": "08-data-types/48-array-cardio-callback-methods-and-function-generation",
+              "section": "8 - Data Types"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "49 - Looping and Iterating - Array forEach",
+              "slug": "09-gettin-loopy/49-looping-and-iterating-array-foreach",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "50 - Looping and Iterating - Mapping",
+              "slug": "09-gettin-loopy/50-looping-and-iterating-mapping",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "51 - Looping and Iterating - Filter, Find and Higher-Order Functions",
+              "slug": "09-gettin-loopy/51-looping-and-iterating-filter-find-and-higher-order-functions",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "52 - Looping and Iterating - Reduce",
+              "slug": "09-gettin-loopy/52-looping-and-iterating-reduce",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "53 - Looping and Iterating - Reduce Exercise",
+              "slug": "09-gettin-loopy/53-looping-and-iterating-reduce-exercise",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "54 - Looping and Iterating - for, for in, for of, and while Loops",
+              "slug": "09-gettin-loopy/54-looping-and-iterating-for-for-in-for-off-and-while-loops",
+              "section": "9 - Loops"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "55 - Face Detection and Censorship",
+              "slug": "10-harder-practice-exercises/55-face-detection-and-censorship",
+              "section": "10 - Harder Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "56 - Sarcastic Text Generator",
+              "slug": "10-harder-practice-exercises/56-sarcastic-text-generator",
+              "section": "10 - Harder Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "57 - Shopping Form with Custom Events, Delegation and Localstorage",
+              "slug": "10-harder-practice-exercises/57-shopping-form-with-custom-events-delegation-and-localstorage",
+              "section": "10 - Harder Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "58 - Building a Gallery",
+              "slug": "10-harder-practice-exercises/58-building-a-gallery",
+              "section": "10 - Harder Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "59 - Building a Slider",
+              "slug": "10-harder-practice-exercises/59-building-a-slider",
+              "section": "10 - Harder Practice Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "60 - The New Keyword",
+              "slug": "11-prototypes-this-new-and-inheritance/60-the-new-keyword",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "61 - The This Keyword",
+              "slug": "11-prototypes-this-new-and-inheritance/61-the-this-keyword",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "62 - Prototype Refactor of Gallery Exercise",
+              "slug": "11-prototypes-this-new-and-inheritance/62-prototype-refactor-of-gallery-exercise",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "63 - Prototypes and Prototypal Inheritance",
+              "slug": "11-prototypes-this-new-and-inheritance/63-prototypes-and-prototypal-inheritance",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "64 - Prototype Refactor of the Slider Exercise",
+              "slug": "11-prototypes-this-new-and-inheritance/64-prototype-refactor-of-the-slider-exercise",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "65 - Bind, Call and Apply",
+              "slug": "11-prototypes-this-new-and-inheritance/65-bind-call-and-apply",
+              "section": "11 - Prototypes, this, new and Inheritance"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "66 - The Event Loop and Callback Hell",
+              "slug": "12-advanced-flow-control/66-the-event-loop-and-callback-hell",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "67 - Promises",
+              "slug": "12-advanced-flow-control/67-promises",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "68 - Promises - Error Handling",
+              "slug": "12-advanced-flow-control/68-promises-error-handling",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "69 - Refactoring Callback Hell to Promise Land",
+              "slug": "12-advanced-flow-control/69-refactoring-callback-hell-to-promise-land",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "70 - Async/Await",
+              "slug": "12-advanced-flow-control/70-async-await",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "71 - Async/Await Error Handling",
+              "slug": "12-advanced-flow-control/71-async-await-error-handling",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "72 - Async/Await Prompt UI",
+              "slug": "12-advanced-flow-control/72-async-await-prompt-ui",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "73 - Async Typer UI - Two Ways",
+              "slug": "12-advanced-flow-control/73-async-typer-ui-two-ways",
+              "section": "12 - Advanced Flow Control"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "74 - AJAX and APIs",
+              "slug": "13-ajax-and-fetching-data/74-ajax-and-apis",
+              "section": "13 - Ajax and Fetching Data"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "75 - CORS and Recipes",
+              "slug": "13-ajax-and-fetching-data/75-cors-and-recipes",
+              "section": "13 - Ajax and Fetching Data"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "76 - Dad Jokes",
+              "slug": "13-ajax-and-fetching-data/76-dad-jokes",
+              "section": "13 - Ajax and Fetching Data"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "77 - Currency Converter",
+              "slug": "13-ajax-and-fetching-data/77-currency-converter",
+              "section": "13 - Ajax and Fetching Data"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "78 - Modules",
+              "slug": "14-es-modules-and-structuring-larger-apps/78-modules",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "79 - Currency Module Refactor",
+              "slug": "14-es-modules-and-structuring-larger-apps/79-currency-module-refactor",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "80 - Dad Jokes Modules Refactor",
+              "slug": "14-es-modules-and-structuring-larger-apps/80-dad-jokes-modules-refactor",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "81 - Bundling and Building with Parcel",
+              "slug": "14-es-modules-and-structuring-larger-apps/81-bundling-and-building-with-parcel",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "82 - Using Open-Source npm packages",
+              "slug": "14-es-modules-and-structuring-larger-apps/82-using-open-source-npm-packages",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "83 - Security",
+              "slug": "14-es-modules-and-structuring-larger-apps/83-security",
+              "section": "14 - ES Modules and Structuring Larger Apps"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "84 - Web Speech Colours Game",
+              "slug": "15-final-round-of-exercise/84-web-speech-colours-game",
+              "section": "15 - Final Round of Exercises"
+            }
+          },
+          {
+            "frontmatter": {
+              "tocTitle": "85 - Audio Visualization",
+              "slug": "15-final-round-of-exercise/85-audio-visualization",
+              "section": "15 - Final Round of Exercises"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": { "layoutClasses": "ultra-wide" }
+  },
+  "staticQueryHashes": ["1592596843"]
+}

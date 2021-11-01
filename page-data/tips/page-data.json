@@ -1,0 +1,455 @@
+{
+  "componentChunkName": "component---src-pages-tips-js",
+  "path": "/tips",
+  "result": {
+    "data": {
+      "allMdx": {
+        "totalCount": 254,
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "destructure-indexes-for-last-array-item",
+                "date": "2019-10-25T15:00:16.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1187745700320337920",
+                "images": [
+                  {
+                    "publicURL": "/static/7917a3570c8fc0d840eb9438a7db529c/EHu4aToXkAEOkQD.jpg",
+                    "id": "08ca8e03-f470-548f-a74b-109f492a8339",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAADAf/aAAwDAQACEAMQAAAB5k1mkwxAAf/EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEAAQUCH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABYQAAMAAAAAAAAAAAAAAAAAAAARMP/aAAgBAQABPyEcP//aAAwDAQACAAMAAAAQ0C++/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGhABAAIDAQAAAAAAAAAAAAAAARARADFBof/aAAgBAQABPxBsNe4qGw5iUb9js//Z",
+                        "aspectRatio": 1.206896551724138,
+                        "src": "/static/7917a3570c8fc0d840eb9438a7db529c/9a128/EHu4aToXkAEOkQD.jpg",
+                        "srcSet": "/static/7917a3570c8fc0d840eb9438a7db529c/7d800/EHu4aToXkAEOkQD.jpg 175w,\n/static/7917a3570c8fc0d840eb9438a7db529c/89f4f/EHu4aToXkAEOkQD.jpg 350w,\n/static/7917a3570c8fc0d840eb9438a7db529c/9a128/EHu4aToXkAEOkQD.jpg 700w,\n/static/7917a3570c8fc0d840eb9438a7db529c/9a763/EHu4aToXkAEOkQD.jpg 1050w,\n/static/7917a3570c8fc0d840eb9438a7db529c/47498/EHu4aToXkAEOkQD.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-25T15:00:16.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1187745700320337920\",\n  \"slug\": \"destructure-indexes-for-last-array-item\",\n  \"images\": [\"EHu4aToXkAEOkQD.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Here is a neat one! Since arrays are objects, we can destructure their indexes to easily grab the first and last items.\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "intl-collator-sort-and-group",
+                "date": "2019-10-24T16:00:07.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1187398373990637569",
+                "images": [
+                  {
+                    "publicURL": "/static/636fdfd21d9bc34e74aa1fe90e76d37c/EHp8gO4X0AAw2qL.jpg",
+                    "id": "0b79cef6-009f-5e61-98fc-a96d16d2dcb0",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHMheYH/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFRABAQAAAAAAAAAAAAAAAAAAECH/2gAIAQEAAT8hj//aAAwDAQACAAMAAAAQeC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAADAQEAAAAAAAAAAAAAAAAAARFB8P/aAAgBAQABPxCirkOY2f/Z",
+                        "aspectRatio": 2.8688524590163933,
+                        "src": "/static/636fdfd21d9bc34e74aa1fe90e76d37c/9a128/EHp8gO4X0AAw2qL.jpg",
+                        "srcSet": "/static/636fdfd21d9bc34e74aa1fe90e76d37c/7d800/EHp8gO4X0AAw2qL.jpg 175w,\n/static/636fdfd21d9bc34e74aa1fe90e76d37c/89f4f/EHp8gO4X0AAw2qL.jpg 350w,\n/static/636fdfd21d9bc34e74aa1fe90e76d37c/9a128/EHp8gO4X0AAw2qL.jpg 700w,\n/static/636fdfd21d9bc34e74aa1fe90e76d37c/9a763/EHp8gO4X0AAw2qL.jpg 1050w,\n/static/636fdfd21d9bc34e74aa1fe90e76d37c/47498/EHp8gO4X0AAw2qL.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/7c783402778a2a4c521c181d303a7a7f/EHp-aYQX0AArphl.jpg",
+                    "id": "ffada066-c546-5f6f-8d31-7b558771e3e9",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUD/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/9oACAEBAAE/IcZEf//aAAwDAQACAAMAAAAQdA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAEBAAMAAAAAAAAAAAAAAAABABEhUf/aAAgBAQABPxDBXUcoAF//2Q==",
+                        "aspectRatio": 6.0344827586206895,
+                        "src": "/static/7c783402778a2a4c521c181d303a7a7f/9a128/EHp-aYQX0AArphl.jpg",
+                        "srcSet": "/static/7c783402778a2a4c521c181d303a7a7f/7d800/EHp-aYQX0AArphl.jpg 175w,\n/static/7c783402778a2a4c521c181d303a7a7f/89f4f/EHp-aYQX0AArphl.jpg 350w,\n/static/7c783402778a2a4c521c181d303a7a7f/9a128/EHp-aYQX0AArphl.jpg 700w,\n/static/7c783402778a2a4c521c181d303a7a7f/9a763/EHp-aYQX0AArphl.jpg 1050w,\n/static/7c783402778a2a4c521c181d303a7a7f/47498/EHp-aYQX0AArphl.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/7c783402778a2a4c521c181d303a7a7f/EHp-K2PWkAAbNpL.jpg",
+                    "id": "ca8cb274-74b0-58ba-86e4-c9e3f3cd6ac5",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUD/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/9oACAEBAAE/IcZEf//aAAwDAQACAAMAAAAQdA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAEBAAMAAAAAAAAAAAAAAAABABEhUf/aAAgBAQABPxDBXUcoAF//2Q==",
+                        "aspectRatio": 6.0344827586206895,
+                        "src": "/static/7c783402778a2a4c521c181d303a7a7f/9a128/EHp-K2PWkAAbNpL.jpg",
+                        "srcSet": "/static/7c783402778a2a4c521c181d303a7a7f/7d800/EHp-K2PWkAAbNpL.jpg 175w,\n/static/7c783402778a2a4c521c181d303a7a7f/89f4f/EHp-K2PWkAAbNpL.jpg 350w,\n/static/7c783402778a2a4c521c181d303a7a7f/9a128/EHp-K2PWkAAbNpL.jpg 700w,\n/static/7c783402778a2a4c521c181d303a7a7f/9a763/EHp-K2PWkAAbNpL.jpg 1050w,\n/static/7c783402778a2a4c521c181d303a7a7f/47498/EHp-K2PWkAAbNpL.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-24T16:00:07.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1187398373990637569\",\n  \"slug\": \"intl-collator-sort-and-group\",\n  \"images\": [\"EHp8gO4X0AAw2qL.jpg\", \"EHp-aYQX0AArphl.jpg\", \"EHp-K2PWkAAbNpL.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Use Intl.Collator() to easily sort or group strings regardless of their case or accent\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "flatmap",
+                "date": "2019-10-22T16:17:18.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1186677921894805505",
+                "images": [
+                  {
+                    "publicURL": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/EHbfSuUXUAEDGAy.jpg",
+                    "id": "d8c65147-abe1-5d31-8422-8849b7b66f09",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAebE3zINRKCP/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQABBQJP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwJP/8QAFhAAAwAAAAAAAAAAAAAAAAAAACEw/9oACAEBAAE/IRz/AP/aAAwDAQACAAMAAAAQGOE+/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRABAAEDBQAAAAAAAAAAAAAAASEAEBEgQVGBkf/aAAgBAQABPxAkKd0WHARmlOJt2+06f//Z",
+                        "aspectRatio": 0.7709251101321586,
+                        "src": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/9a128/EHbfSuUXUAEDGAy.jpg",
+                        "srcSet": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/7d800/EHbfSuUXUAEDGAy.jpg 175w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/89f4f/EHbfSuUXUAEDGAy.jpg 350w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/9a128/EHbfSuUXUAEDGAy.jpg 700w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/d8343/EHbfSuUXUAEDGAy.jpg 925w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/fa673867fc05d78e78a038d83c0d7970/EHftRJYWsAAWLqw.jpg",
+                    "id": "86c34d98-20ce-5e1a-9b98-e867d62c946e",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdyQsD//xAAVEAEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAQABBQKn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAQEBAAAAAAAAAAAAAAAAAAFxgf/aAAgBAQABPyHDkR//2gAMAwEAAgADAAAAEAgP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAQQDAQAAAAAAAAAAAAAAAQARIUExcdHw/9oACAEBAAE/EMEZTdKPPEDBmA0v/9k=",
+                        "aspectRatio": 2.536231884057971,
+                        "src": "/static/fa673867fc05d78e78a038d83c0d7970/9a128/EHftRJYWsAAWLqw.jpg",
+                        "srcSet": "/static/fa673867fc05d78e78a038d83c0d7970/7d800/EHftRJYWsAAWLqw.jpg 175w,\n/static/fa673867fc05d78e78a038d83c0d7970/89f4f/EHftRJYWsAAWLqw.jpg 350w,\n/static/fa673867fc05d78e78a038d83c0d7970/9a128/EHftRJYWsAAWLqw.jpg 700w,\n/static/fa673867fc05d78e78a038d83c0d7970/9a763/EHftRJYWsAAWLqw.jpg 1050w,\n/static/fa673867fc05d78e78a038d83c0d7970/47498/EHftRJYWsAAWLqw.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-22T16:17:18.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1186677921894805505\",\n  \"slug\": \"flatmap\",\n  \"images\": [\"EHbfSuUXUAEDGAy.jpg\", \"EHftRJYWsAAWLqw.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 New in ES2019, we have a .flat() method to flatten these types of chunked arrays.\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "chunkify-array",
+                "date": "2019-10-21T20:37:46.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1186381082557591554",
+                "images": [
+                  {
+                    "publicURL": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/EHbfSuUXUAEDGAy.jpg",
+                    "id": "f8ae698d-1738-5ebe-bdfa-52f8127fd83d",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAebE3zINRKCP/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQABBQJP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwJP/8QAFhAAAwAAAAAAAAAAAAAAAAAAACEw/9oACAEBAAE/IRz/AP/aAAwDAQACAAMAAAAQGOE+/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRABAAEDBQAAAAAAAAAAAAAAASEAEBEgQVGBkf/aAAgBAQABPxAkKd0WHARmlOJt2+06f//Z",
+                        "aspectRatio": 0.7709251101321586,
+                        "src": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/9a128/EHbfSuUXUAEDGAy.jpg",
+                        "srcSet": "/static/6bcf65d84f2b11ecb10b51b4d3a701c8/7d800/EHbfSuUXUAEDGAy.jpg 175w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/89f4f/EHbfSuUXUAEDGAy.jpg 350w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/9a128/EHbfSuUXUAEDGAy.jpg 700w,\n/static/6bcf65d84f2b11ecb10b51b4d3a701c8/d8343/EHbfSuUXUAEDGAy.jpg 925w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/fa673867fc05d78e78a038d83c0d7970/EHftRJYWsAAWLqw.jpg",
+                    "id": "9b93a3fc-cd0c-56c2-b494-f9b1bdcdecec",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdyQsD//xAAVEAEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAQABBQKn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAQEBAAAAAAAAAAAAAAAAAAFxgf/aAAgBAQABPyHDkR//2gAMAwEAAgADAAAAEAgP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAQQDAQAAAAAAAAAAAAAAAQARIUExcdHw/9oACAEBAAE/EMEZTdKPPEDBmA0v/9k=",
+                        "aspectRatio": 2.536231884057971,
+                        "src": "/static/fa673867fc05d78e78a038d83c0d7970/9a128/EHftRJYWsAAWLqw.jpg",
+                        "srcSet": "/static/fa673867fc05d78e78a038d83c0d7970/7d800/EHftRJYWsAAWLqw.jpg 175w,\n/static/fa673867fc05d78e78a038d83c0d7970/89f4f/EHftRJYWsAAWLqw.jpg 350w,\n/static/fa673867fc05d78e78a038d83c0d7970/9a128/EHftRJYWsAAWLqw.jpg 700w,\n/static/fa673867fc05d78e78a038d83c0d7970/9a763/EHftRJYWsAAWLqw.jpg 1050w,\n/static/fa673867fc05d78e78a038d83c0d7970/47498/EHftRJYWsAAWLqw.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-21T20:37:46.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1186381082557591554\",\n  \"slug\": \"chunkify-array\",\n  \"images\": [\"EHbfSuUXUAEDGAy.jpg\", \"EHftRJYWsAAWLqw.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 When working with an API, I often need to chunk up a list of users and send them in batches.\"), mdx(\"p\", null, \"Array.from() is a great way to chunk up arrays because of the secondary argument being a map function.\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "intl-pluralrules-ordinal",
+                "date": "2019-10-21T14:08:12.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1186283045722230784",
+                "images": [
+                  {
+                    "publicURL": "/static/93ccdc2880b6664e55604a6e9969c925/EHaGGEOX4AEUeXn.jpg",
+                    "id": "a9f2606c-5002-55ef-87ac-066a44580847",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHMll5kAAH/xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAEFAh//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAY/Ah//xAAZEAACAwEAAAAAAAAAAAAAAAARIQABECD/2gAIAQEAAT8hKhy11//aAAwDAQACAAMAAAAQ7O++/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARIEFhcf/aAAgBAQABPxBQHbPBLgQXTL4Y/wD/2Q==",
+                        "aspectRatio": 1.206896551724138,
+                        "src": "/static/93ccdc2880b6664e55604a6e9969c925/9a128/EHaGGEOX4AEUeXn.jpg",
+                        "srcSet": "/static/93ccdc2880b6664e55604a6e9969c925/7d800/EHaGGEOX4AEUeXn.jpg 175w,\n/static/93ccdc2880b6664e55604a6e9969c925/89f4f/EHaGGEOX4AEUeXn.jpg 350w,\n/static/93ccdc2880b6664e55604a6e9969c925/9a128/EHaGGEOX4AEUeXn.jpg 700w,\n/static/93ccdc2880b6664e55604a6e9969c925/9a763/EHaGGEOX4AEUeXn.jpg 1050w,\n/static/93ccdc2880b6664e55604a6e9969c925/47498/EHaGGEOX4AEUeXn.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/ad1e0c68bc7d6eef64f7065bb4af73c4/EHaTebnWkAAVaWK.png",
+                    "id": "2ac56d2f-17d7-5543-9058-2376f42e0eac",
+                    "extension": "png",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVQY043Qi22DMBAAULaBxv+7s33nDxjSUOj+A1WROkCkN8GbNF+m/Gq5ldxGLp1fi00dZEBxVrzri46zwkXhrGjW+E/RommyoVH8yXE744q0hrxSqiYPwGLk2LEdUDR1nQfGEsImcAbXbWIDPGmTEp2Z2o0VvECqOdevPDyJqc8dyzcUHVfNg7kCjIoXuB4KW+LJ+JLjVdNx5y3G7mOLuSs+PFUrx8D+xGbTMHxQaoB7oRvC8FwtlcnBmulkulzsnpvy5eFEOXl8YLJW5ncGvEse74zlY3+pMUlMdpvt/wAAAABJRU5ErkJggg==",
+                        "aspectRatio": 3.4313725490196076,
+                        "src": "/static/ad1e0c68bc7d6eef64f7065bb4af73c4/b50f6/EHaTebnWkAAVaWK.png",
+                        "srcSet": "/static/ad1e0c68bc7d6eef64f7065bb4af73c4/d4144/EHaTebnWkAAVaWK.png 175w,\n/static/ad1e0c68bc7d6eef64f7065bb4af73c4/a5370/EHaTebnWkAAVaWK.png 350w,\n/static/ad1e0c68bc7d6eef64f7065bb4af73c4/b50f6/EHaTebnWkAAVaWK.png 650w",
+                        "sizes": "(max-width: 650px) 100vw, 650px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-21T14:08:12.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1186283045722230784\",\n  \"slug\": \"intl-pluralrules-ordinal\",\n  \"images\": [\"EHaGGEOX4AEUeXn.jpg\", \"EHaTebnWkAAVaWK.png\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Use Intl.PluralRules() to easily find the ordinal for numbers - 1st, 2nd, 3rd, 4th...\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "intl-datetimeformat-date-formatting",
+                "date": "2019-10-18T18:38:11.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1185263826029174784",
+                "images": [
+                  {
+                    "publicURL": "/static/29936f955961d0524a7b5c669e6533ae/EHLnI6qWkAc9qDL.jpg",
+                    "id": "c984eb05-df89-552f-bfbd-4d457d14cbc0",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAVud/HKpRJ//xAAbEAADAAIDAAAAAAAAAAAAAAABAgMABBITFP/aAAgBAQABBQJ6Pz7KZqsxmdeRPmjiSRB//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAdEAACAgEFAAAAAAAAAAAAAAAAAgEyESEiMVGR/9oACAEBAAY/Am3tz2Xb0nLTOpQoYWD/xAAcEAEAAgIDAQAAAAAAAAAAAAABABExYSFBkfH/2gAIAQEAAT8hORkdp9vFTYXRFi8lvLNT1iCiXeZ//9oADAMBAAIAAwAAABA4D//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxDSR//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxDC1//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESExUWHwgZHB/9oACAEBAAE/EAkwMAqLZi7HuLKhAqtQM8oTrL5navsOi1hZzRu8T//Z",
+                        "aspectRatio": 1.8041237113402062,
+                        "src": "/static/29936f955961d0524a7b5c669e6533ae/9a128/EHLnI6qWkAc9qDL.jpg",
+                        "srcSet": "/static/29936f955961d0524a7b5c669e6533ae/7d800/EHLnI6qWkAc9qDL.jpg 175w,\n/static/29936f955961d0524a7b5c669e6533ae/89f4f/EHLnI6qWkAc9qDL.jpg 350w,\n/static/29936f955961d0524a7b5c669e6533ae/9a128/EHLnI6qWkAc9qDL.jpg 700w,\n/static/29936f955961d0524a7b5c669e6533ae/9a763/EHLnI6qWkAc9qDL.jpg 1050w,\n/static/29936f955961d0524a7b5c669e6533ae/47498/EHLnI6qWkAc9qDL.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/bb1b2b8bc628ceaf5027aa86049d2ea2/EHLoW88X4AEtvIO.jpg",
+                    "id": "098d5acc-a849-5b22-aa79-40f50ed80a67",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHMheYH/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAQABPyGlef/aAAwDAQACAAMAAAAQeD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAXEAEBAQEAAAAAAAAAAAAAAAABADFh/9oACAEBAAE/EFBt2lv/2Q==",
+                        "aspectRatio": 6.25,
+                        "src": "/static/bb1b2b8bc628ceaf5027aa86049d2ea2/9a128/EHLoW88X4AEtvIO.jpg",
+                        "srcSet": "/static/bb1b2b8bc628ceaf5027aa86049d2ea2/7d800/EHLoW88X4AEtvIO.jpg 175w,\n/static/bb1b2b8bc628ceaf5027aa86049d2ea2/89f4f/EHLoW88X4AEtvIO.jpg 350w,\n/static/bb1b2b8bc628ceaf5027aa86049d2ea2/9a128/EHLoW88X4AEtvIO.jpg 700w,\n/static/bb1b2b8bc628ceaf5027aa86049d2ea2/9a763/EHLoW88X4AEtvIO.jpg 1050w,\n/static/bb1b2b8bc628ceaf5027aa86049d2ea2/47498/EHLoW88X4AEtvIO.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/973b2a63c1e78c972e3adec21b42bd61/EHLpOxFXkAE4Fpb.jpg",
+                    "id": "fd0d40f3-bdaf-5f0c-8ab1-fe678e50282e",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAVud/HKpRJ//xAAbEAADAAIDAAAAAAAAAAAAAAABAgMABBITFP/aAAgBAQABBQJ6Pz7KZqsxmdeRPmjiSRB//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAdEAACAgEFAAAAAAAAAAAAAAAAAgEyESEiMVGR/9oACAEBAAY/Am3tz2Xb0nLTOpQoYWD/xAAcEAEAAgIDAQAAAAAAAAAAAAABABExYSFB8PH/2gAIAQEAAT8hORkdp9vFTYXRFi8lvLPRYgol3mf/2gAMAwEAAgADAAAAEDgP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/ENJH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EMLX/8QAHRABAAICAgMAAAAAAAAAAAAAAQARIWEx8FGBwf/aAAgBAQABPxAJMDAxFs7R9iyoQKrUDPKE8y+5o9tw6LWFnNHl1P/Z",
+                        "aspectRatio": 1.8041237113402062,
+                        "src": "/static/973b2a63c1e78c972e3adec21b42bd61/9a128/EHLpOxFXkAE4Fpb.jpg",
+                        "srcSet": "/static/973b2a63c1e78c972e3adec21b42bd61/7d800/EHLpOxFXkAE4Fpb.jpg 175w,\n/static/973b2a63c1e78c972e3adec21b42bd61/89f4f/EHLpOxFXkAE4Fpb.jpg 350w,\n/static/973b2a63c1e78c972e3adec21b42bd61/9a128/EHLpOxFXkAE4Fpb.jpg 700w,\n/static/973b2a63c1e78c972e3adec21b42bd61/9a763/EHLpOxFXkAE4Fpb.jpg 1050w,\n/static/973b2a63c1e78c972e3adec21b42bd61/47498/EHLpOxFXkAE4Fpb.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/93b16df5f515df6ecc0ce4e7843d822e/EHLpsPsXUAEHoUC.jpg",
+                    "id": "1d2c813e-0926-58a7-a4a7-042df11d82f2",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAduwSD//xAAVEAEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAQABBQIv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAAMAAAAAAAAAAAAAAAAAAQAQIf/aAAgBAQABPyHRRP/aAAwDAQACAAMAAAAQ9A//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAAMBAQAAAAAAAAAAAAAAAQAhMRFR/9oACAEBAAE/EDZAtzfIOE//2Q==",
+                        "aspectRatio": 4.375,
+                        "src": "/static/93b16df5f515df6ecc0ce4e7843d822e/9a128/EHLpsPsXUAEHoUC.jpg",
+                        "srcSet": "/static/93b16df5f515df6ecc0ce4e7843d822e/7d800/EHLpsPsXUAEHoUC.jpg 175w,\n/static/93b16df5f515df6ecc0ce4e7843d822e/89f4f/EHLpsPsXUAEHoUC.jpg 350w,\n/static/93b16df5f515df6ecc0ce4e7843d822e/9a128/EHLpsPsXUAEHoUC.jpg 700w,\n/static/93b16df5f515df6ecc0ce4e7843d822e/9a763/EHLpsPsXUAEHoUC.jpg 1050w,\n/static/93b16df5f515df6ecc0ce4e7843d822e/47498/EHLpsPsXUAEHoUC.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/2a2689e568316110310eab650c01f750/EHNJtuZWkAMoTL-.png",
+                    "id": "ab05451b-60e5-57a5-8230-b2fb70b83931",
+                    "extension": "png",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAACOUlEQVQoz43TW2+bMBgGYH5OwDY+cwinkDZru2pAg3ELpE3bhChR///9ZEiWTdpFpVfWK1uW/OiTrVyWuayWooi9tX9z9NO9n+znd1/B8jRfnSRZZ7xazstVVt7nv36kRT6vgkXnxR2DrcW8NlKHcLXNite0eHORRlC7lyDQYDgGNRgqFzYubJBZzZEV8E7wDWU9xS0jves8I9B8MxaFbxLuJTxIuA/BgTkbMFuDWQ1nNbQVBI1ja+BoYDf2TJtua7PvKHM5FWUiq5QXc/9J5DsZvctoF9wcvWwI8kGQOmFVFlTLuFolxTIq0/DJS1oRtMYs5XNafcY3m+yxz8oPyjpMWsJ7QjtCWwwb7tYMK06UpLUgpmOqXVe7QFuh7L1wy7w3TjvJNqNZIecKg3+Kc+1nM0OvHjpIOEi4C+HAgDGP4FHuNMAxbJO/zfbVXKaiCL21WOyEMX9OZj/f/2NOr2YZttTMmevobhsmXfbQJ48flLUYt4T1mIxmpBg6mwWp+WQmGuPJ7G+C5QePt0J2nte7jkaOuubCNuBL0JTJLMFOgkHAXQgGBvqzeZo2+J95djFnvMxYtRDVnK9FdpDxpxfvgtuTnx+DfODuOuXVIixvk+ouK27jYhFWftrJeUvhi8WFjh7ew7RL77v45zulHXZfCO2MmbxgqChS1FUj24AZVmQ0Y6gtT3ZyuaXRq4haETyDWY0cBe16mod59gUMHH1m26McKMsn2wgdAzj4cAjRKaFfCOhvfozf+xbqu1xZqMAAAAAASUVORK5CYII=",
+                        "aspectRatio": 1.2589928057553956,
+                        "src": "/static/2a2689e568316110310eab650c01f750/16338/EHNJtuZWkAMoTL-.png",
+                        "srcSet": "/static/2a2689e568316110310eab650c01f750/d4144/EHNJtuZWkAMoTL-.png 175w,\n/static/2a2689e568316110310eab650c01f750/a5370/EHNJtuZWkAMoTL-.png 350w,\n/static/2a2689e568316110310eab650c01f750/16338/EHNJtuZWkAMoTL-.png 649w",
+                        "sizes": "(max-width: 649px) 100vw, 649px"
+                      }
+                    }
+                  }
+                ],
+                "videos": [
+                  "https://pbs.twimg.com/tweet_video/EHLriTFWsAQDJI9.mp4"
+                ]
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-18T18:38:11.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1185263826029174784\",\n  \"slug\": \"intl-datetimeformat-date-formatting\",\n  \"images\": [\"EHLnI6qWkAc9qDL.jpg\", \"EHLoW88X4AEtvIO.jpg\", \"EHLpOxFXkAE4Fpb.jpg\", \"EHLpsPsXUAEHoUC.jpg\", \"EHNJtuZWkAMoTL-.png\"],\n  \"videos\": [\"https://pbs.twimg.com/tweet_video/EHLriTFWsAQDJI9.mp4\"],\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Use Intl.DateTimeFormat() to create nicely formatted date and time strings\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "intl-relativetimeformat-format-dates",
+                "date": "2019-10-17T18:06:48.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1184893536707207168",
+                "images": [
+                  {
+                    "publicURL": "/static/f06cba57d11a0ad646b53ca6b3d2aa8b/EHGWW-xXUAABRGu.jpg",
+                    "id": "c0abcae2-c4c9-5f7b-a07f-bf4a16c4d588",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABYBAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB501l5yDAAf/EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEAAQUCH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABoQAAICAwAAAAAAAAAAAAAAAAABEDERICH/2gAIAQEAAT8hxwcOh3r/AP/aAAwDAQACAAMAAAAQZC/+/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQMBAT8QY//EABYRAQEBAAAAAAAAAAAAAAAAAAEgIf/aAAgBAgEBPxA1j//EABwQAQADAAIDAAAAAAAAAAAAAAEAETEQoSFRsf/aAAgBAQABPxBpoy8iRS+oq7PhO6PhlvtlvH//2Q==",
+                        "aspectRatio": 1.1363636363636365,
+                        "src": "/static/f06cba57d11a0ad646b53ca6b3d2aa8b/9a128/EHGWW-xXUAABRGu.jpg",
+                        "srcSet": "/static/f06cba57d11a0ad646b53ca6b3d2aa8b/7d800/EHGWW-xXUAABRGu.jpg 175w,\n/static/f06cba57d11a0ad646b53ca6b3d2aa8b/89f4f/EHGWW-xXUAABRGu.jpg 350w,\n/static/f06cba57d11a0ad646b53ca6b3d2aa8b/9a128/EHGWW-xXUAABRGu.jpg 700w,\n/static/f06cba57d11a0ad646b53ca6b3d2aa8b/9a763/EHGWW-xXUAABRGu.jpg 1050w,\n/static/f06cba57d11a0ad646b53ca6b3d2aa8b/47498/EHGWW-xXUAABRGu.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/8ffa54a9d586ff9766223bf495841fde/EHGYWy-WoAAqzuG.jpg",
+                    "id": "fd53ae0e-d75a-5b25-8531-9436570f888b",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdygEn//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAEFAn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAVEAEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAQABPyEv/9oADAMBAAIAAwAAABD3/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAADAQEAAAAAAAAAAAAAAAAAARExsf/aAAgBAQABPxBeshWsP//Z",
+                        "aspectRatio": 7,
+                        "src": "/static/8ffa54a9d586ff9766223bf495841fde/9a128/EHGYWy-WoAAqzuG.jpg",
+                        "srcSet": "/static/8ffa54a9d586ff9766223bf495841fde/7d800/EHGYWy-WoAAqzuG.jpg 175w,\n/static/8ffa54a9d586ff9766223bf495841fde/89f4f/EHGYWy-WoAAqzuG.jpg 350w,\n/static/8ffa54a9d586ff9766223bf495841fde/9a128/EHGYWy-WoAAqzuG.jpg 700w,\n/static/8ffa54a9d586ff9766223bf495841fde/9a763/EHGYWy-WoAAqzuG.jpg 1050w,\n/static/8ffa54a9d586ff9766223bf495841fde/47498/EHGYWy-WoAAqzuG.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-17T18:06:48.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1184893536707207168\",\n  \"slug\": \"intl-relativetimeformat-format-dates\",\n  \"images\": [\"EHGWW-xXUAABRGu.jpg\", \"EHGYWy-WoAAqzuG.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Use Intl.RelativeTimeFormat() to get nicely formatted relative time strings.\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "object-fromentries",
+                "date": "2019-10-08T14:56:04.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1181584047144878080",
+                "images": [
+                  {
+                    "publicURL": "/static/12e02f029d6d734c95691a5de1cc52f8/EGXUaxUXoAIyoOD.jpg",
+                    "id": "04d9181b-b991-5a1c-82c1-f59ac052eecc",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe3tQo//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAACAwAAAAAAAAAAAAAAAAAQQQABgf/aAAgBAQABPyFytDP/2gAMAwEAAgADAAAAEJQP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERAFEQIUGR/9oACAEBAAE/EErj7rIAmKafmQlnd5//2Q==",
+                        "aspectRatio": 2.0833333333333335,
+                        "src": "/static/12e02f029d6d734c95691a5de1cc52f8/9a128/EGXUaxUXoAIyoOD.jpg",
+                        "srcSet": "/static/12e02f029d6d734c95691a5de1cc52f8/7d800/EGXUaxUXoAIyoOD.jpg 175w,\n/static/12e02f029d6d734c95691a5de1cc52f8/89f4f/EGXUaxUXoAIyoOD.jpg 350w,\n/static/12e02f029d6d734c95691a5de1cc52f8/9a128/EGXUaxUXoAIyoOD.jpg 700w,\n/static/12e02f029d6d734c95691a5de1cc52f8/9a763/EGXUaxUXoAIyoOD.jpg 1050w,\n/static/12e02f029d6d734c95691a5de1cc52f8/47498/EGXUaxUXoAIyoOD.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/1dad0fdbda9c903c311e2d1920cf0c1d/EGXUaw-WsAAREqV.jpg",
+                    "id": "ff497fae-02d5-54ee-bfa1-3c9e84cc461c",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe3c6UD/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAbEAACAQUAAAAAAAAAAAAAAAAAARARIUFhcf/aAAgBAQABPyHIuQ7MS2UP/9oADAMBAAIAAwAAABCUD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEBAQEAAwAAAAAAAAAAAAERACFRQWGR/9oACAEBAAE/EC3Cz63NGO/BqeP5gol73WBKHvTR5v/Z",
+                        "aspectRatio": 1.3671875,
+                        "src": "/static/1dad0fdbda9c903c311e2d1920cf0c1d/9a128/EGXUaw-WsAAREqV.jpg",
+                        "srcSet": "/static/1dad0fdbda9c903c311e2d1920cf0c1d/7d800/EGXUaw-WsAAREqV.jpg 175w,\n/static/1dad0fdbda9c903c311e2d1920cf0c1d/89f4f/EGXUaw-WsAAREqV.jpg 350w,\n/static/1dad0fdbda9c903c311e2d1920cf0c1d/9a128/EGXUaw-WsAAREqV.jpg 700w,\n/static/1dad0fdbda9c903c311e2d1920cf0c1d/9a763/EGXUaw-WsAAREqV.jpg 1050w,\n/static/1dad0fdbda9c903c311e2d1920cf0c1d/47498/EGXUaw-WsAAREqV.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"js\"],\n  \"date\": \"2019-10-08T14:56:04.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1181584047144878080\",\n  \"slug\": \"object-fromentries\",\n  \"images\": [\"EGXUaxUXoAIyoOD.jpg\", \"EGXUaw-WsAAREqV.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Object.fromEntries() is a new method for converting Arrays, maps or other iterables into objects\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "css-variables-partial-property-update",
+                "date": "2019-10-02T15:01:31.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1179411093208358912",
+                "images": [
+                  {
+                    "publicURL": "/static/fcb7fbad50f56512a6b33fcd30db3934/EF4bgW1XkAM3gAK.jpg",
+                    "id": "4d23f2e0-90fd-5e97-9e74-773734ce2adf",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABjLqoi5oDf//EABkQAQEAAwEAAAAAAAAAAAAAAAMCAAEEFP/aAAgBAQABBQJHTSehc5UqjrmjdeQ8IpOf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgICAwAAAAAAAAAAAAAAAAIBERIhMTNC/9oACAEBAAY/AmjNuTsYtmvZM7PRUWf/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFhkfH/2gAIAQEAAT8hKBAtT6EToXJi4bre52eohwrvLP/aAAwDAQACAAMAAAAQ0P8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxCMWH//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EKh6f//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQdFxgZH/2gAIAQEAAT8QD00CwFx4fmgaOw21RDO1oDVr4im29eo4ST2G8dT/2Q==",
+                        "aspectRatio": 1.6990291262135921,
+                        "src": "/static/fcb7fbad50f56512a6b33fcd30db3934/9a128/EF4bgW1XkAM3gAK.jpg",
+                        "srcSet": "/static/fcb7fbad50f56512a6b33fcd30db3934/7d800/EF4bgW1XkAM3gAK.jpg 175w,\n/static/fcb7fbad50f56512a6b33fcd30db3934/89f4f/EF4bgW1XkAM3gAK.jpg 350w,\n/static/fcb7fbad50f56512a6b33fcd30db3934/9a128/EF4bgW1XkAM3gAK.jpg 700w,\n/static/fcb7fbad50f56512a6b33fcd30db3934/9a763/EF4bgW1XkAM3gAK.jpg 1050w,\n/static/fcb7fbad50f56512a6b33fcd30db3934/47498/EF4bgW1XkAM3gAK.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  },
+                  {
+                    "publicURL": "/static/c69d5ebb50bda6167a903e9d4675b485/EF4cLDQXoAE91f1.jpg",
+                    "id": "693f108a-c1a5-58d1-a38d-b492179fd7da",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAES6OEXmjf/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABBBITFP/aAAgBAQABBQJjmUzu2YpkSyxNi8VRKeYf/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AYV//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Bh//EAB8QAAEDAwUAAAAAAAAAAAAAAAABAhESITEiMjNhof/aAAgBAQAGPwJyVrk5HGp03FWvPRv8ImT/xAAaEAEAAwADAAAAAAAAAAAAAAABABExEEFh/9oACAEBAAE/IRAYLHil6i7MK2Frj0wTHa8n/9oADAMBAAIAAwAAABDg/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAATH/2gAIAQMBAT8QEx//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/ELJ1/8QAGxABAQEAAgMAAAAAAAAAAAAAAREA0fEhQXH/2gAIAQEAAT8QOzkHgC7ssIzsErIZq2MQyv3dC5yAKdMejjf/2Q==",
+                        "aspectRatio": 1.5765765765765767,
+                        "src": "/static/c69d5ebb50bda6167a903e9d4675b485/9a128/EF4cLDQXoAE91f1.jpg",
+                        "srcSet": "/static/c69d5ebb50bda6167a903e9d4675b485/7d800/EF4cLDQXoAE91f1.jpg 175w,\n/static/c69d5ebb50bda6167a903e9d4675b485/89f4f/EF4cLDQXoAE91f1.jpg 350w,\n/static/c69d5ebb50bda6167a903e9d4675b485/9a128/EF4cLDQXoAE91f1.jpg 700w,\n/static/c69d5ebb50bda6167a903e9d4675b485/9a763/EF4cLDQXoAE91f1.jpg 1050w,\n/static/c69d5ebb50bda6167a903e9d4675b485/47498/EF4cLDQXoAE91f1.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"css\"],\n  \"date\": \"2019-10-02T15:01:31.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1179411093208358912\",\n  \"slug\": \"css-variables-partial-property-update\",\n  \"images\": [\"EF4bgW1XkAM3gAK.jpg\", \"EF4cLDQXoAE91f1.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 Use CSS Variables to do partial property overwrites. Handy for CSS properties that only accept multiple values.\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "slug": "clear-301-redirect",
+                "date": "2019-10-01T13:21:45.000Z",
+                "tweetURL": "https://twitter.com/wesbos/status/1179023596854874117",
+                "images": [
+                  {
+                    "publicURL": "/static/bdf204cd36cf856be4d423c798851050/EFy7r2CXoAUqRZr.jpg",
+                    "id": "cfff7008-2eb8-5e9e-9d6f-b4381df06fbf",
+                    "extension": "jpg",
+                    "childImageSharp": {
+                      "fluid": {
+                        "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdqBKC//xAAVEAEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAQABBQKH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhABAQEAAAAAAAAAAAAAAAAAAAFB/9oACAEBAAE/ITUr/9oADAMBAAIAAwAAABD8D//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EGf/xAAZEAEBAAMBAAAAAAAAAAAAAAABABExQZH/2gAIAQEAAT8QA8SvUmN3/9k=",
+                        "aspectRatio": 6.25,
+                        "src": "/static/bdf204cd36cf856be4d423c798851050/9a128/EFy7r2CXoAUqRZr.jpg",
+                        "srcSet": "/static/bdf204cd36cf856be4d423c798851050/7d800/EFy7r2CXoAUqRZr.jpg 175w,\n/static/bdf204cd36cf856be4d423c798851050/89f4f/EFy7r2CXoAUqRZr.jpg 350w,\n/static/bdf204cd36cf856be4d423c798851050/9a128/EFy7r2CXoAUqRZr.jpg 700w,\n/static/bdf204cd36cf856be4d423c798851050/9a763/EFy7r2CXoAUqRZr.jpg 1050w,\n/static/bdf204cd36cf856be4d423c798851050/47498/EFy7r2CXoAUqRZr.jpg 1200w",
+                        "sizes": "(max-width: 700px) 100vw, 700px"
+                      }
+                    }
+                  }
+                ],
+                "videos": null
+              },
+              "body": "function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"tags\": [\"tools\"],\n  \"date\": \"2019-10-01T13:21:45.000Z\",\n  \"tweetURL\": \"https://twitter.com/wesbos/status/1179023596854874117\",\n  \"slug\": \"clear-301-redirect\",\n  \"images\": [\"EFy7r2CXoAUqRZr.jpg\"],\n  \"videos\": null,\n  \"links\": null\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, [\"components\"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"p\", null, \"\\uD83D\\uDD25 If you have a pesky 301 redirect that won't clear, open dev tools and load the page with the \\\"disable cache\\\"\"), mdx(\"p\", null, \"Log this in your head for later, you'll need it like I just did \\uD83D\\uDE03\"), mdx(\"style\", {\n    \"className\": \"grvsc-styles\"\n  }, \"\\n  .grvsc-container {\\n    overflow: auto;\\n    position: relative;\\n    -webkit-overflow-scrolling: touch;\\n    padding-top: 1rem;\\n    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));\\n    padding-bottom: 1rem;\\n    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));\\n    border-radius: 8px;\\n    border-radius: var(--grvsc-border-radius, 8px);\\n    font-feature-settings: normal;\\n    line-height: 1.4;\\n  }\\n  \\n  .grvsc-code {\\n    display: table;\\n  }\\n  \\n  .grvsc-line {\\n    display: table-row;\\n    box-sizing: border-box;\\n    width: 100%;\\n    position: relative;\\n  }\\n  \\n  .grvsc-line > * {\\n    position: relative;\\n  }\\n  \\n  .grvsc-gutter-pad {\\n    display: table-cell;\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  .grvsc-gutter {\\n    display: table-cell;\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter::before {\\n    content: attr(data-content);\\n  }\\n  \\n  .grvsc-source {\\n    display: table-cell;\\n    padding-left: 1.5rem;\\n    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));\\n    padding-right: 1.5rem;\\n    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));\\n  }\\n  \\n  .grvsc-source:empty::after {\\n    content: ' ';\\n    -webkit-user-select: none;\\n    -moz-user-select: none;\\n    user-select: none;\\n  }\\n  \\n  .grvsc-gutter + .grvsc-source {\\n    padding-left: 0.75rem;\\n    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);\\n  }\\n  \\n  /* Line transformer styles */\\n  \\n  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {\\n    content: ' ';\\n    position: absolute;\\n    width: 100%;\\n  }\\n  \\n  .grvsc-line-diff-add::before {\\n    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));\\n  }\\n  \\n  .grvsc-line-diff-del::before {\\n    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));\\n  }\\n  \\n  .grvsc-line-number {\\n    padding: 0 2px;\\n    text-align: right;\\n    opacity: 0.7;\\n  }\\n  \\n\"));\n}\n;\nMDXContent.isMDXComponent = true;"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {}
+  },
+  "staticQueryHashes": ["1592596843"]
+}
